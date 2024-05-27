@@ -6,7 +6,8 @@
 #include <cstdlib>
 #include <cstdio>
 
-class Zombie{
+class Zombie
+{
 	private:
 		std::string		name;
 	public:
@@ -15,8 +16,7 @@ class Zombie{
 		void	announce();
 };
 
-Zombie* newZombie( std::string _name );
-void randomChump( std::string _name );
-
+Zombie*	newZombie( std::string _name );
+void	randomChump( std::string _name );
 
 #endif
