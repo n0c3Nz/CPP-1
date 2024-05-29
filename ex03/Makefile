@@ -9,7 +9,7 @@ WHITE = \033[1;37m
 
 
 #COMPILATION
-NAME = Zombies
+NAME = weapons
 CC = c++ -I./inc
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address -g3
 

@@ -9,12 +9,12 @@ WHITE = \033[1;37m
 
 
 #COMPILATION
-NAME = Zombies
-CC = c++ -I./inc
+NAME = frases
+CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -fsanitize=address -g3
 
 OBJ_DIR = .obj
-SRC_DIR = ./src
+SRC_DIR = .
 
 SRC = $(shell find $(SRC_DIR) -type f -name '*.cpp')
 
