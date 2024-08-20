@@ -1,4 +1,4 @@
-#include "sed.hpp"
+#include <sed.hpp>
 
 int main (int argc, char **argv){
 	if (argc != 4)
