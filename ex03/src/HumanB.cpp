@@ -18,3 +18,8 @@ void HumanB::attack()
 	}
 	std::cout << _name << " attacks with their " << _weapon->getType() << std::endl;
 }
+
+HumanB::~HumanB()
+{
+	delete _weapon;
+}
