@@ -21,5 +21,7 @@ void HumanB::attack()
 
 HumanB::~HumanB()
 {
+	std::cout << "Weapon " << _weapon->getType() << " is destroyed" << std::endl;
 	delete _weapon;
+	std::cout << "HumanB " << _name << " is dead" << std::endl;
 }
